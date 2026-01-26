@@ -1,9 +1,7 @@
 Criador: Abranlincoln Gomes de Brito
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-RECOMENDADO: coloque os arquivos diretamente no diretório (D:\) do seu computador, se  não for possível terá que alterar o caminho de cada item visual do jogo!
-Não exclua/recorte o atalho que está na pasta principal. Apenas o copie para sua àrea de trabalho!
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Apenas abra o executável e deleite desta obra de arte.
+
 Tutorial:
 
 Use as setas para mover e espaço para atirar.
