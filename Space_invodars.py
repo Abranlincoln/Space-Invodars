@@ -6,19 +6,26 @@ from pygame import mixer
 # Inicialização
 pygame.init()
 
-# --- ÁUDIO (Coloque logo após o pygame.init()) ---
+# Inicialização
+pygame.init()
 mixer.init()
-mixer.music.load("D:\\Space Invodars\\data\\sounds\\Intro.wav")
-mixer.music.set_volume(0.070)  # Música de fundo baixinha
+
+# --- CAMINHOS RELATIVOS ---
+# Isso garante que o jogo procure a pasta 'data' onde o .exe estiver
+
+
+# ÁUDIO
+mixer.music.load("data/sounds/Intro.wav")
+mixer.music.set_volume(0.07)
 mixer.music.play(-1)
 
-# Efeitos Sonoros (Usando mixer.Sound para não parar a música)
-explosion_sound = mixer.Sound('D:\\Space Invodars\\data\\sounds\\explosion.wav')
+explosion_sound = mixer.Sound('data/sounds/explosion.wav')
 explosion_sound.set_volume(0.1)
 
-laser_sound = mixer.Sound('D:\\Space Invodars\\data\\sounds\\bullet.wav')
+laser_sound = mixer.Sound('data/sounds/bullet.wav')
 laser_sound.set_volume(0.015)
 
+# Configurações da Tela
 screen_width = 800
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
@@ -30,16 +37,18 @@ def load_img(path, size=None):
     if size: img = pygame.transform.scale(img, size)
     return img
 
-# Recursos
-playerImage = load_img('D:\\Space Invodars\\data\\Sprites\\nave_2.png')
-bulletImage = load_img('D:\\Space Invodars\\data\\Sprites\\bullet.png')
-explosionImage = load_img('D:\\Space Invodars\\data\\Sprites\\explosion.png')
+# --- CARREGAMENTO DE RECURSOS (Caminhos Ajustados) ---
+playerImage = load_img('data/Sprites/nave_2.png')
+bulletImage = load_img('data/Sprites/bullet.png')
+explosionImage = load_img('data/Sprites/explosion.png')
+
 bg_images = [
-    load_img('D:\\Space Invodars\\data\\backgrounds\\BG_1.jpg', (800, 600)),
-    load_img('D:\\Space Invodars\\data\\backgrounds\\BG_2.png', (800, 600)),
-    load_img('D:\\Space Invodars\\data\\backgrounds\\BG_3.png', (800, 600)),
-    load_img('D:\\Space Invodars\\data\\backgrounds\\BG_4.png', (800, 600))
+    load_img('data/backgrounds/BG_1.jpg', (800, 600)),
+    load_img('data/backgrounds/BG_2.png', (800, 600)),
+    load_img('data/backgrounds/BG_3.png', (800, 600)),
+    load_img('data/backgrounds/BG_4.png', (800, 600))
 ]
+
 
 font = pygame.font.Font('freesansbold.ttf', 20)
 big_font = pygame.font.Font('freesansbold.ttf', 64)

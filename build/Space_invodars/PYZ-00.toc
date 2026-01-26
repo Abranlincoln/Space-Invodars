@@ -1,4 +1,4 @@
-('D:\\Space Invodars\\build\\Space_invodars\\PYZ-00.pyz',
+('C:\\Users\\abran\\OneDrive\\Desktop\\Space-Invodars\\build\\Space_invodars\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\abran\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__future__.py',
    'PYMODULE'),
