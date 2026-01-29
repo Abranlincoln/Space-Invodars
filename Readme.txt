@@ -1,7 +1,7 @@
 Criador: Abranlincoln Gomes de Brito
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-RECOMENDADO: coloque os arquivos diretamente no diretório (D:\) do seu computador, se  não for possível terá que alterar o caminho de cada item visual do jogo!
-Não exclua/recorte o atalho que está na pasta principal. Apenas o copie para sua àrea de trabalho!
+
+Apenas execute o game!
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Tutorial:
