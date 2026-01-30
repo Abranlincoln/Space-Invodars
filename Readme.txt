@@ -3,7 +3,8 @@ Criador: Abranlincoln Gomes de Brito
 
 Apenas execute o game!
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Apenas abra o executável e deleite desta obra de arte.
+
 Tutorial:
 
 Use as setas para mover e espaço para atirar.
